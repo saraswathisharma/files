@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>
+         Olympics
+      </title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/day8.css?v=2.0">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="js/validation.js"></script>
+   </head>
+   <body class="body-css">
+      <div class="container">
+      <div class="top-container row">
+         <div class="col-6">
+            <img src="images/logo_color.svg"  width="200px">
+         </div>
+         <div class="col-6">
+            <div class="menu-mt-3">
+               <nav class="navbar navbar-expand-lg navbar-light by-light">
+                  <div class="container-fluid">
+                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                           <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Home</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">About us</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">Service</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">Contact</a>
+                           </li>
+                           <li class="nav-item">
+                            <a class="nav-link" href="#" id="neww">News</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">Channel</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </nav>
+            </div>
+         </div>
+      </div>
+  <p id="news" style="text-align: center; font-size: 20px;"></p>
+ <!-- <img src="images/istockphoto-1335247217-612x612.jpg" class="img1"> -->
+ <div class="loader">
+   <center>
+       <img class="loading-image" src="images/loading.png" alt="loading..">
+   </center>
+</div>
+      <div id="hidden">
+                          
+      <div id="logu">
+         <h1>OLYMPICS TOKYO 2020</h1>
+      </div>
+      <div class="content">
+         <div class="row">
+            <img src="images/paris-olympics-kb-2x1-220214-c2809e.jpg"  id="class"><br>
+         </div>
+
+
+         <div class="row">
+            <div class="click">
+               <h4 id="event"></h4>
+            </div>
+            <h2>ATHLETICS</h2>
+            <p>Athletics, also called track-and-field sports or track and field, a variety of competitions in running, walking, jumping, and throwing events. Although these contests are called track and field (or simply track) in the United States, they are generally designated as athletics elsewhere. This article covers the history, the organization, and the administration of the sports, the conduct of competitions, the rules and techniques of the individual events, and some of the sports’ most prominent athletes.</p>
+         </div>
+      </div>
+      <div class="context">
+      <div class="row">
+         <h2>GAMES</h2>
+         <div class="abb col-6">
+            <ol>
+               <li>Badminton</li>
+               <li>Table Tennis</li>
+               <li>Throw Ball</li>
+               <li>Volley Ball</li>
+               <li>Basket Ball</li>
+            </ol>
+         </div>
+         <div class="pic-mt-3 rounded-circle col-6">
+            <img src="images/Neeraj-Chopra.jpeg" width="300px" height="200px">
+         </div>
+      </div>
+      <button type="button" id="divv">Apply</button>
+      <div class="forum" id="basic-form">
+         <div class="formm">
+            <div class="container-fluid px-1 py-5 mx-auto">
+               <div class="row d-flex justify-content-center">
+                  <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-left">
+                     <h2 class="text-center mb-4"><u>EVENT FORM</u></h2>
+                     <form class="form-card" onsubmit="event.preventDefault()">
+                        <div class="row justify-content-between text-left">
+                           <div class="form-group col-sm-6 flex-column d-flex" style="text-align: left;" > <label for="fname" class="form-control-label px-3" >First name<span class="text-danger"> *</span> </label> <input type="text" id="fname" name="fname" class="fname" placeholder="Enter your first name"  class="form-control" id="validationDefault03" required> </div>
+                           <div class="form-group col-sm-6 flex-column d-flex" style="text-align: left;" > <label for="lname" class="form-control-label px-3" >Last name<span class="text-danger"> *</span></label> <input type="text" id="lname" name="lname" class="lname" placeholder="Enter your last name" class="form-control" id="validationDefault03" required> </div>
+                        </div>
+                        <div class="row justify-content-between text-left">
+                           <div class="form-group col-sm-6 flex-column d-flex" style="text-align: left;"> <label for="email" class="form-control-label px-3">Email<span class="text-danger"> *</span></label> <input type="text" id="email" name="email" class="emailfield" placeholder=""  class="form-control" id="validationDefault03" required> </div>
+                           <div class="form-group col-sm-6 flex-column d-flex" style="text-align: left;"> <label for="contact" class="form-control-label px-3">Phone number<span class="text-danger"> *</span></label> <input type="text" id="mob" name="mob" class="contact" data-validation="true" maxlength="10" placeholder="Must contain 10 digits" class="form-control" pattern="[1-9]{1}[0-9]{9}" id="validationDefault03" required> </div>
+                        </div>
+                        <div class="row justify-content-between text-left">
+                           <div class="form-group col-12 flex-column d-flex" style="text-align: left;"> <label for="temporary" class="form-control-label px-3">Temporary Address<span class="text-danger" > *</span></label> <textarea id="temporaryy" maxlength="250" class="temporaryy"></textarea> 	<span id="rchars">250</span> Character(s) Remaining</div>
+                           <div class="row justify-content-between text-left">
+                              <label>
+                              <input type="checkbox" name="checkkbox" id="checkkbox"/>Same as Temporary Address
+                              </label>
+                              <div class="form-group col-12 flex-column d-flex" style="text-align: left;">
+                                 <label for="permanent" class="form-control-label px-3">Permanent Address<span class="text-danger" > *</span></label> 
+                                 <textarea id="permanentt" class="permanentt" onkeyup="countChar(this)" maxlength="250"></textarea>
+                                 <div id="charNum"></div>
+                              </div>
+                           </div>
+                           </p>
+                           <div class="col-12">
+                              <h3>Gender:</h3>
+                              <div class="col-6">
+                                 <input type="radio" value="Female" class="female" name="gender" id="fgender">
+                             <div class="female">female</div>
+                              </div>
+                              <div class="col-6">
+                                 <input type="radio" value="Male" class="male" name="gender" id="mgender">
+                              
+                              <div class="male">male</div>
+                              </div>
+                      
+                           </div>
+                           <div class="row justify-content-between text-left">
+                              <div class="form-group col-sm-6 flex-column d-flex" style="text-align: left;"> <label for="city" class="form-control-label px-3">City<span class="text-danger"> *</span></label> <input type="text" id="city" class="city"  placeholder=""  class="form-control" id="validationDefault03" required> </div>
+                              <div class="form-group col-sm-6 flex-column d-flex" style="text-align: left;"> <label for="state" class="form-control-label px-3">State<span class="text-danger"> *</span></label> <input type="text" id="state" class="state" placeholder=""  class="form-control" id="validationDefault03" required> </div>
+                           </div>
+                           <div class="row justify-content-between text-left">
+                              <div class="form-group col-sm-6 flex-column d-flex" style="text-align: left;"> <label for="country" class="form-control-label px-3">Country<span class="text-danger"> *</span></label> <input type="text" id="country" class="country" placeholder=""  class="form-control" id="validationDefault03" required> </div>
+                              <div class="form-group col-sm-6 flex-column d-flex" style="text-align: left;"> <label for="zipcode" class="form-control-label px-3">Zip Code<span class="text-danger"> *</span></label> <input type="text" id="zip" class="zip" placeholder="" maxlength="6" class="form-control" id="validationDefault03" required> </div>
+                           </div>
+                           <div class="row justify-content-center">
+                              <div class="form-group col-sm-6">
+
+<button type="submit" class="btn-block btn-primary user-form">SUBMIT</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+    <p>First Name:  <span class="fname-value"></span></p>
+    <p>Last Name:  <span class="lname-value"></span></p>
+    <p>Email:  <span class="email-value"></span></p>
+    <p>Phone number:  <span class="contact-value"></span></p>
+    <p>Temporary Address:  <span class="temporaryy-value"></span></p>
+    <p>Permanent Address:  <span class="permanentt-value"></span></p>
+    <p>Gender:  <span class="genderr-value"></span></p>
+
+    <p>City:  <span class="city-value"></span></p>
+    <p>State:  <span class="state-value"></span></p>
+    <p>Country:  <span class="country-value"></span></p>
+    <p>Zip Code:  <span class="zip-value"></span></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="submitBtn">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+                              </div>
+                           </div>
+                     </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="sub">
+         <h2>TABLE TENNIS</h2>
+         <br>
+      </div>
+      <div class="tennis-container row">
+         <div class="tennis-img col-6">
+            <img src="images/table-tennis-shots.jpg" height="200px" width="250px" id="imgg" >
+            <br><br><br><br>
+            <button type="button" class="v1">Animate</button>
+         </div>
+         <div class="col-6">
+            <div class="tennis-txt">
+               <p>Table tennis, also known as ping-pong and whiff-whaff, is a sport in which two or four players hit a lightweight ball, also known as the ping-pong ball, back and forth across a table using small solid rackets. The game takes place on a hard table divided by a net. Except for the initial serve, the rules are generally as follows: players must allow a ball played toward them to bounce once on their side of the table and must return it so that it bounces on the opposite side at least once. A point is scored when a player fails to return the ball within the rules. Play is fast and demands quick reactions. Spinning the ball alters its trajectory and limits an opponent's options, giving the hitter a great advantage.</p>
+            </div>
+         </div>
+      </div>
+      <div class="container col-12">
+         <div class="col-3">
+            <h3>THROW BALL</h3>
+            <p>Throwball is popular in Asia, especially on the Indian subcontinent, and was first played in India as a women's sport in Chennai during the 1940s. <p id="p1" ></p></p><button type="button" id="buttonn">Load more...</button>
+           
+         </div>
+         <div class="col-3">
+            <h3>VOLLEY BALL</h3>
+            <p>Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules.[1] It has been a part of the official program of the Summer Olympic Games since Tokyo 1964. Beach volleyball was introduced to the programme at the Atlanta 1996. The adapted version of volleyball at the Summer Paralympic Games is sitting volleyball.</p>
+         </div>
+         <div class="col-3">
+            <h3>BASKET BALL</h3>
+            <p>Basketball is a team sport in which two teams, most commonly of five players each, opposing one another on a rectangular court, compete with the primary objective of shooting a basketball (approximately 9.4 inches (24 cm) in diameter) through the defender's hoop (a basket 18 inches (46 cm) in diameter modunted 10 feet (3.048 m) high to a backboard at each end of the court, while preventing the opposing team from shooting through their own hoop. </p>
+         </div>
+         <div class="col-3">
+            <h3>BADMINTON</h3>
+            <p>Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger teams, the most common forms of the game are "singles" (with one player per side) and "doubles" (with two players per side). Badminton is often played as a casual outdoor activity in a yard or on a beach; formal games are played on a rectangular indoor court. Points are scored by striking the shuttlecock with the racquet and landing it within the opposing side's half of the court.</p>
+         </div>
+         </div>
+      </div>
+   </div>
+</div>
+         <div class="clearfix"></div>
+         <div class="col-footer">
+            <div class="top-col-6 col-sm-6 col-md-12 col-lg-12 col-12">
+               <div class="sup">
+                  <img src="images/360_F_285446979_Z8F7AKf7SImSo83AfpjauCYWka9cFfhf.jpg" width="250px" height="80px">
+               </div>
+               <div class="col-txt">
+                  <p>TM © 2022 – International Olympic Committee – All Rights Reserved.</p>
+               </div>
+            </div>
+         </div>
+         </div>
+         <button type="button" class="scroll-top" >Go to Top</button>
+      </div>
+  </div>
+   </body>
+</html>

@@ -1,0 +1,42 @@
+table,th,td{
+		border: 2px solid black;
+		border-collapse: collapse;
+		padding: 5px;
+	}
+p{
+	border: 1px solid black;
+	margin: 80px 0px 80px 0px;
+	outline:  2px solid red;
+	padding: 20px 20px 40px 20px;
+	background-color: black;
+	height: 120px;
+	max-width: 1500px;
+	color: white;
+}
+[title~=mop]
+{
+	border: 3px solid skyblue;
+	border-radius: 5px;
+}
+
+.menu {text-align: center; font-size: 20px;}
+a:link{color: red}
+a:visited{color: purple}
+a:hover{color: red}
+a:active{color: blue;}
+p::first-letter{color: #ff0000; font-size: xx-large;}
+body{background: url("M.O.P.Vaishnav_College_for_Women_logo.jpg") no-repeat center; }
+th{background-color: orange;color: white;}
+td:nth-child(odd){background-color:pink}
+.image{position: static; text-align: center;}
+.container{width:1024px; margin:0 auto; padding-bottom: 10px;}
+.content{font-size: 20px; text-align: center;color: darkblue; line-height: 1.5;}
+.content p{text-align: justify; font-family: "times new roman"}
+.content h2{text-decoration:none; text-align: center;}
+.content hr{width:400px; margin:0 auto; border:2px solid black;}
+.class{font-size: 18px; text-align: left; color: black; display: block; visibility: visible;}
+.value{font-size: 20px; text-align: left; padding-bottom: 40px; color: black;}
+#head1 {color:blue; text-decoration: underline; direction: rtl; unicode-bidi: bidi-override; }
+.head {color:green; text-decoration: underline; background-color: black; opacity: 0.6; text-transform: uppercase;}
+* {color: blue;}
+ul.a{list-style-type: circle;}

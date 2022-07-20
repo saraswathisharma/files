@@ -1,0 +1,37 @@
+.container{width:1024px; margin:0 auto;}
+.top-container {background-color: gray; opacity: 0.7; padding-top: 20px; padding-bottom: 16px;}
+.content{ width: 100%; text-align: center;} 
+.content p{text-align: justify; font-style: "times new roman"; font-size: 16px; width: 100%;}
+.content p::first-letter{font-size: xx-large; color: #ff0000;}
+.menu {font-size: 20px; text-align: right;float: right; padding-top: 25px;}
+a {text-decoration: none; padding-right: 20px;}
+a:link{color: red}
+a:visited{color: purple}
+a:hover{color: red}
+a:active{color: pink;}
+.abb{text-align: left; float: left;font-size: 16px;}
+#class{width: 100%; height: 50%; padding-top: 50px;}
+.pic {text-align: right; float: right; opacity: 0.7;}
+table, th, td
+{
+	border:  2px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+th{background-color: black; color: white;} 
+td:nth-child(2){background-color:lightseagreen; opacity: 1;}
+td:nth-child(4){background-color:lightseagreen; opacity: 0.5;}
+.sub {text-align: center;}
+.tennis-img{text-align: left; float: left;}
+.col-footer {background-color: gray; margin-top: 30px;}
+.sup {text-align: center; padding-top: 40px; padding-left: 30px; background-color: gray;}
+.tennis-container{width:100%; margin:0 auto; padding-bottom: 50px;}
+.bul{width:25%; float: left;}
+.tennis-txt{width: 72%; float:right; text-align: justify;}
+.tennis-txt p{margin-top: 0; padding-left: 20px;}
+.tennis-txt p::first-letter { font-size: xx-large; color: #ff0000; }
+.col-txt p{text-align: center; padding-bottom: 40px; background-color: gray;}
+.txt-center{text-align:center;}
+.clearfix{clear: both;}
+body {background-color: pink;}
+@media screen and (min-width: 1200px) {body {background-color: white;}}
